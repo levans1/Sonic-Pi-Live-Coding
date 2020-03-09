@@ -104,7 +104,6 @@ define:drum_beat do|drumone, s1, drumtwo, s2, drumthree, s3, drumfour, s4|
     sample drumfour,amp: rrand(1,1.5)
     sleep s4
   end
-  stop
 end
 sample intro
 print sample_duration intro
